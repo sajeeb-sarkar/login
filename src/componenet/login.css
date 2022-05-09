@@ -1,0 +1,131 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff9f9;
+    position: relative;
+    top: 5rem;
+    height: 24rem;
+    width: 28rem;
+    justify-items: center;
+    margin: auto;
+    padding: 22px 16px 20px 10px;
+    border-radius: 10px;
+    color: #252525;
+    box-shadow: 0px 2px 20px rgba(0,0,0,0.25);
+}
+/* first div sign in */
+.SignIn-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.signin {
+        display: flex;
+        flex-direction: column;
+}
+.signin .sign{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.signin .text{
+    color: #252525;
+    font-weight: 200;
+    
+}
+.close{
+    cursor: pointer;
+}
+hr{
+    width: 27rem;
+    border: 0.5px solid #dfdfdf;
+}
+
+/* input files */
+
+.data-input{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem 0rem 0.5rem;
+    gap: 1rem;
+    align-items: center;
+}
+ input{
+    outline: none;
+    height: 3rem;
+    width: 26rem;
+    border-radius: 10px;
+    padding-left: 1.8rem;
+    font-size: 1.2rem;
+    background-color: #e9e9e9;
+    border: none;
+}
+input:hover{
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.25); 
+}
+.icon{
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background-color:#e9e9e9 ;
+    margin-left: -2.76rem;
+    cursor: pointer;
+}
+/* submit button div */
+.submit-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.submit-btn span{
+    display: flex;
+    justify-content: center;
+    color:  #36A8CB;
+    font-size: 16px;
+    font-weight: 400;
+}
+.submit-btn button{
+    padding: 1rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #36abcb;
+}
+@media screen and (max-width:500px) {
+    .container{
+        top: 5rem;
+        height: 24rem;
+        width: 18rem;
+        padding: 22px 16px 20px 10px;
+        border-radius: 10px;
+        color: #252525;
+    }
+    hr{
+        width:17rem
+    }
+    /* input file */
+    input{
+        outline: none;
+        height: 3rem;
+        width: 16rem;
+        border-radius: 10px;
+        padding-left: 1.8rem;
+        font-size: 1.2rem;
+        background-color: #e9e9e9;
+        border: none;
+    }
+    .icon{
+        padding: 0.7rem;
+        font-size: 1.2rem;
+        outline: none;
+        border: none;
+        background-color:#e9e9e9 ;
+        margin-left: -2.76rem;
+        cursor: pointer;
+    }
+}
