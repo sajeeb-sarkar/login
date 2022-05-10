@@ -85,6 +85,7 @@ input:hover{
     color:  #36A8CB;
     font-size: 16px;
     font-weight: 400;
+    cursor:help;
 }
 .submit-btn button{
     padding: 1rem;
@@ -95,6 +96,7 @@ input:hover{
     font-weight: 600;
     color: #ffffff;
     background-color: #36abcb;
+    cursor: pointer;
 }
 @media screen and (max-width:500px) {
     .container{
